@@ -83,7 +83,7 @@ public class SmileyParser {
         };
 		
 		public static int MONSTREVIOLET = 0;
-		public static int MONSTREVIOLETIPHONE = 1;
+		public static int MONSTREVIOIPHONE = 1;
 		public static int REDHEART = 2;
 		public static int REDHEARTIPHONE = 3;
         /*
@@ -119,32 +119,9 @@ public class SmileyParser {
     // to the string arrays: default_smiley_texts and default_smiley_names in res/values/arrays.xml
     public static final int[] DEFAULT_SMILEY_RES_IDS = {
 		Smileys.getSmileyResource(Smileys.MONSTREVIOLET),
-		Smileys.getSmileyResource(Smileys.MONSTREVIOLETIPHONE),
+		Smileys.getSmileyResource(Smileys.MONSTREVIOIPHONE),
 		Smileys.getSmileyResource(Smileys.REDHEART),
-		Smileys.getSmileyResource(Smileys.REDHEARTIPHONE)
-	/*
-        Smileys.getSmileyResource(Smileys.HAPPY),                //  0
-        Smileys.getSmileyResource(Smileys.SAD),                  //  1
-        Smileys.getSmileyResource(Smileys.WINKING),              //  2
-        Smileys.getSmileyResource(Smileys.TONGUE_STICKING_OUT),  //  3
-        Smileys.getSmileyResource(Smileys.SURPRISED),            //  4
-        Smileys.getSmileyResource(Smileys.KISSING),              //  5
-        Smileys.getSmileyResource(Smileys.YELLING),              //  6
-        Smileys.getSmileyResource(Smileys.COOL),                 //  7
-        Smileys.getSmileyResource(Smileys.MONEY_MOUTH),          //  8
-        Smileys.getSmileyResource(Smileys.FOOT_IN_MOUTH),        //  9
-        Smileys.getSmileyResource(Smileys.EMBARRASSED),          //  10
-        Smileys.getSmileyResource(Smileys.ANGEL),                //  11
-        Smileys.getSmileyResource(Smileys.UNDECIDED),            //  12
-        Smileys.getSmileyResource(Smileys.CRYING),               //  13
-        Smileys.getSmileyResource(Smileys.LIPS_ARE_SEALED),      //  14
-        Smileys.getSmileyResource(Smileys.LAUGHING),             //  15
-        Smileys.getSmileyResource(Smileys.WTF),                  //  16
-        Smileys.getSmileyResource(Smileys.MAD),                  //  17
-        Smileys.getSmileyResource(Smileys.HEART),                //  18
-        Smileys.getSmileyResource(Smileys.SMIRK),                //  19
-        Smileys.getSmileyResource(Smileys.POKERFACE),            //  20
-	*/
+		Smileys.getSmileyResource(Smileys.REDHEARTIPHONE),
     };
 
     public static final int DEFAULT_SMILEY_TEXTS = R.array.default_smiley_texts;

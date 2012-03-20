@@ -55,7 +55,7 @@
 
     <!-- Maximum number of recipients allowed per message. Use a value of -1
          to indicate no limit. -->
-    <int name="recipientLimit">-1</int>
+    <int name="recipientLimit">10</int>
 
     <!-- Maximum number of SMS message segments in a long text message before converting
          the SMS message to an MMS message. -->
