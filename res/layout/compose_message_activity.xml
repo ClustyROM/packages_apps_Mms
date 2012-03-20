@@ -126,7 +126,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ff000000"
+                android:background="#fff"
                 android:paddingBottom="4dip" >
 
                 <EditText
@@ -160,7 +160,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="#cccfcfcf"
+                        android:textColor="#cc333333"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"
