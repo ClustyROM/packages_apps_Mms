@@ -53,7 +53,12 @@ public class SmileyParser {
 
     static class Smileys {
         private static final int[] sIconIds = {
-            R.drawable.emo_im_happy,
+			R.drawable.emoji_1,
+			R.drawable.emoji_1,
+			R.drawable.emoji_2,
+			R.drawable.emoji_2
+        /*
+			R.drawable.emo_im_happy,
             R.drawable.emo_im_sad,
             R.drawable.emo_im_winking,
             R.drawable.emo_im_tongue_sticking_out,
@@ -74,9 +79,15 @@ public class SmileyParser {
             R.drawable.emo_im_mad,
             R.drawable.emo_im_smirk,
             R.drawable.emo_im_pokerface
+		*/
         };
-
-        public static int HAPPY = 0;
+		
+		public static int MONSTREVIOLET = 0;
+		public static int MONSTREVIOLETIPHONE = 1;
+		public static int REDHEART = 2;
+		public static int REDHEARTIPHONE = 3;
+        /*
+		public static int HAPPY = 0;
         public static int SAD = 1;
         public static int WINKING = 2;
         public static int TONGUE_STICKING_OUT = 3;
@@ -97,6 +108,7 @@ public class SmileyParser {
         public static int HEART = 18;
         public static int SMIRK = 19;
         public static int POKERFACE = 20;
+		*/
 
         public static int getSmileyResource(int which) {
             return sIconIds[which];
@@ -106,6 +118,11 @@ public class SmileyParser {
     // NOTE: if you change anything about this array, you must make the corresponding change
     // to the string arrays: default_smiley_texts and default_smiley_names in res/values/arrays.xml
     public static final int[] DEFAULT_SMILEY_RES_IDS = {
+		Smileys.getSmileyResource(Smileys.MONSTREVIOLET),
+		Smileys.getSmileyResource(Smileys.MONSTREVIOLETIPHONE),
+		Smileys.getSmileyResource(Smileys.REDHEART),
+		Smileys.getSmileyResource(Smileys.REDHEARTIPHONE)
+	/*
         Smileys.getSmileyResource(Smileys.HAPPY),                //  0
         Smileys.getSmileyResource(Smileys.SAD),                  //  1
         Smileys.getSmileyResource(Smileys.WINKING),              //  2
@@ -127,6 +144,7 @@ public class SmileyParser {
         Smileys.getSmileyResource(Smileys.HEART),                //  18
         Smileys.getSmileyResource(Smileys.SMIRK),                //  19
         Smileys.getSmileyResource(Smileys.POKERFACE),            //  20
+	*/
     };
 
     public static final int DEFAULT_SMILEY_TEXTS = R.array.default_smiley_texts;

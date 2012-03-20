@@ -16,10 +16,22 @@
  * limitations under the License.
  -->
 <resources>
+	<string-array name="default_smiley_texts">
+		<item></item> <!-- 0: Monstre Violet -->
+		<item>👿</item> <!-- 1: Monstre Violet (iPhone encrypt) -->
+		<item></item> <!-- 2: Coeur Rouge -->
+		<item>❤</item> <!-- 3: Coeur Rouge (iPhone encrypt) -->
+	</string-array>
+	<string-array name="default_smiley_names_backup">
+        <item>Purple monster</item>                   <!-- 0:  -->
+		<item>Purple monster iPhone</item>                   <!-- 1: 👿 -->
+        <item>Red heart</item>                     	<!-- 2:  -->
+		<item>Red heart iPhone</item>                     	<!-- 3: ❤ -->
+	</string-array>
     <!-- NOTE: if you change anything about this array, you must make the corresponding change
          to the array DEFAULT_SMILEY_RES_IDS in MessageListItem.java and to default_smiley_names
          below. -->
-    <string-array name="default_smiley_texts">
+    <string-array name="default_smiley_texts_backup">
       <item>:-)</item>   <!-- 0: Happy -->
       <item>:-(</item>   <!-- 1: Sad -->
       <item>;-)</item>   <!-- 2: Winking -->
@@ -46,7 +58,7 @@
     <!-- NOTE: if you change anything about this array, you must make the corresponding change
          to the array DEFAULT_SMILEY_RES_IDS in SmileyParser.java and to default_smiley_texts
          above. -->
-    <string-array name="default_smiley_names">
+    <string-array name="default_smiley_names_backup">
         <item>Happy</item>                   <!-- 0: :-) -->
         <item>Sad</item>                     <!-- 1: :-( -->
         <item>Winking</item>                 <!-- 2: ;-) -->
