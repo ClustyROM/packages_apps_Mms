@@ -54,8 +54,6 @@ public class SmileyParser {
     static class Smileys {
         private static final int[] sIconIds = {
 			R.drawable.emoji_1,
-			R.drawable.emoji_1,
-			R.drawable.emoji_1,
 			R.drawable.emoji_1
         /*
 			R.drawable.emo_im_happy,
@@ -84,8 +82,6 @@ public class SmileyParser {
 		
 		public static int MONSTREVIOLET = 0;
 		public static int MONSTREVIOIPHONE = 1;
-		public static int REDHEART = 2;
-		public static int REDHEARTIPHONE = 3;
         /*
 		public static int HAPPY = 0;
         public static int SAD = 1;
@@ -120,8 +116,6 @@ public class SmileyParser {
     public static final int[] DEFAULT_SMILEY_RES_IDS = {
 		Smileys.getSmileyResource(Smileys.MONSTREVIOLET),
 		Smileys.getSmileyResource(Smileys.MONSTREVIOIPHONE),
-		Smileys.getSmileyResource(Smileys.REDHEART),
-		Smileys.getSmileyResource(Smileys.REDHEARTIPHONE),
     };
 
     public static final int DEFAULT_SMILEY_TEXTS = R.array.default_smiley_texts;
