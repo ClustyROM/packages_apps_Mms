@@ -25,7 +25,6 @@
 		<item>👿</item> <!-- UTF16 LE -->
 	</string-array>
 	<string-array name="default_smiley_names">
-
 		<item>Purple monster iPhone</item>                   <!-- 1: 👿 -->
         <item>Purple monster iPhone</item>                    	<!-- 2:  -->
 		<item>Purple monster iPhone</item>                    	<!-- 3: ❤ -->
