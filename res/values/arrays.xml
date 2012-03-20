@@ -22,7 +22,7 @@
 		<item></item> <!-- 2: Coeur Rouge -->
 		<item>❤</item> <!-- 3: Coeur Rouge (iPhone encrypt) -->
 	</string-array>
-	<string-array name="default_smiley_names_backup">
+	<string-array name="default_smiley_names">
         <item>Purple monster</item>                   <!-- 0:  -->
 		<item>Purple monster iPhone</item>                   <!-- 1: 👿 -->
         <item>Red heart</item>                     	<!-- 2:  -->
