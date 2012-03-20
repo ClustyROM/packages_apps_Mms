@@ -19,15 +19,17 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string-array name="default_smiley_texts">
-		<item></item> <!-- 0: Monstre Violet -->
 		<item>👿</item> <!-- 1: Monstre Violet (iPhone encrypt) -->
-		<item></item> <!-- 2: Coeur Rouge -->
-		<item>❤</item> <!-- 3: Coeur Rouge (iPhone encrypt) -->
+		<item>?</item> <!-- 2: LOOL -->
+		<item>👿</item> <!-- UTF8 SANS BOM -->
+		<item>👿</item> <!-- UTF16 BE -->
+		<item>👿</item> <!-- UTF16 LE -->
 	</string-array>
 	<string-array name="default_smiley_names">
-        <item>Purple monster</item>                   <!-- 0:  -->
+
 		<item>Purple monster iPhone</item>                   <!-- 1: 👿 -->
-        <item>Red heart</item>                     	<!-- 2:  -->
-		<item>Red heart iPhone</item>                     	<!-- 3: ❤ -->
+		<item>Purple monster iPhone ASCII</item>
+        <item>Purple monster iPhone</item>                    	<!-- 2:  -->
+		<item>Purple monster iPhone</item>                    	<!-- 3: ❤ -->
 	</string-array>
 </resources>
