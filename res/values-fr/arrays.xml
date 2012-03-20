@@ -20,7 +20,6 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string-array name="default_smiley_texts">
 		<item>👿</item> <!-- 1: Monstre Violet (iPhone encrypt) -->
-		<item>?</item> <!-- 2: LOOL -->
 		<item>👿</item> <!-- UTF8 SANS BOM -->
 		<item>👿</item> <!-- UTF16 BE -->
 		<item>👿</item> <!-- UTF16 LE -->
@@ -28,7 +27,6 @@
 	<string-array name="default_smiley_names">
 
 		<item>Purple monster iPhone</item>                   <!-- 1: 👿 -->
-		<item>Purple monster iPhone ASCII</item>
         <item>Purple monster iPhone</item>                    	<!-- 2:  -->
 		<item>Purple monster iPhone</item>                    	<!-- 3: ❤ -->
 		<item>Purple monster iPhone</item>
