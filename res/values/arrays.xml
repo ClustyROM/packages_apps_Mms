@@ -17,7 +17,7 @@
  -->
 <resources>
 	<string-array name="default_smiley_texts">
-		<item></item> <!-- 0: Monstre Violet -->
+		<item>Ÿ˜Š</item> <!-- 0: Monstre Violet -->
 		<item>👿</item> <!-- 1: Monstre Violet (iPhone encrypt) -->
 	</string-array>
 	<string-array name="default_smiley_names">
