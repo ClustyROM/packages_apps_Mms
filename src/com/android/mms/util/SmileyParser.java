@@ -147,7 +147,7 @@ public class SmileyParser {
     private Pattern buildPattern() {
         // Set the StringBuilder capacity with the assumption that the average
         // smiley is 3 characters long.
-        StringBuilder patternString = new StringBuilder(mSmileyTexts.length * 3);
+        StringBuilder patternString = new StringBuilder(mSmileyTexts.length * 8);
 
         // Build a regex that looks like (:-)|:-(|...), but escaping the smilies
         // properly so they will be interpreted literally by the regex matcher.
