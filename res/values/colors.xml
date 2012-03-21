@@ -27,14 +27,14 @@
 	<drawable name="text_color_white">#55ffffff</drawable>
     <drawable name="text_color_offwhite">#55ffffff</drawable>
     <drawable name="text_color_blue">#cc33b5e5</drawable>
-    <color name="text_hairline">#ffafafaf</color>
-    <color name="list_background">#ff000000</color>
-    <color name="message_count_color">#66cfcfcf</color>
+    <color name="text_hairline">#ffd9d9d9</color>
+    <color name="list_background">#ff0f0f0f</color>
+    <color name="message_count_color">#ff87b400</color>
 
     <!-- Chat "sent time" text background -->
-    <color name="timestamp_color">#bfefefef</color>
+    <color name="timestamp_color">#bfffffff</color>
 
     <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">#ff191919</color>
+    <color name="unread_bgcolor">#ff171717</color>
     <color name="read_bgcolor">#ff000000</color>
 </resources>
