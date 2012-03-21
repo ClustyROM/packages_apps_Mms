@@ -53,10 +53,7 @@ public class SmileyParser {
 
     static class Smileys {
         private static final int[] sIconIds = {
-			R.drawable.emoji_1,
-			R.drawable.emoji_1
-        /*
-			R.drawable.emo_im_happy,
+            R.drawable.emo_im_happy,
             R.drawable.emo_im_sad,
             R.drawable.emo_im_winking,
             R.drawable.emo_im_tongue_sticking_out,
@@ -77,13 +74,9 @@ public class SmileyParser {
             R.drawable.emo_im_mad,
             R.drawable.emo_im_smirk,
             R.drawable.emo_im_pokerface
-		*/
         };
-		
-		public static int MONSTREVIOLET = 0;
-		public static int MONSTREVIOIPHONE = 1;
-        /*
-		public static int HAPPY = 0;
+
+        public static int HAPPY = 0;
         public static int SAD = 1;
         public static int WINKING = 2;
         public static int TONGUE_STICKING_OUT = 3;
@@ -104,7 +97,6 @@ public class SmileyParser {
         public static int HEART = 18;
         public static int SMIRK = 19;
         public static int POKERFACE = 20;
-		*/
 
         public static int getSmileyResource(int which) {
             return sIconIds[which];
@@ -114,8 +106,27 @@ public class SmileyParser {
     // NOTE: if you change anything about this array, you must make the corresponding change
     // to the string arrays: default_smiley_texts and default_smiley_names in res/values/arrays.xml
     public static final int[] DEFAULT_SMILEY_RES_IDS = {
-		Smileys.getSmileyResource(Smileys.MONSTREVIOLET),
-		Smileys.getSmileyResource(Smileys.MONSTREVIOIPHONE),
+        Smileys.getSmileyResource(Smileys.HAPPY),                //  0
+        Smileys.getSmileyResource(Smileys.SAD),                  //  1
+        Smileys.getSmileyResource(Smileys.WINKING),              //  2
+        Smileys.getSmileyResource(Smileys.TONGUE_STICKING_OUT),  //  3
+        Smileys.getSmileyResource(Smileys.SURPRISED),            //  4
+        Smileys.getSmileyResource(Smileys.KISSING),              //  5
+        Smileys.getSmileyResource(Smileys.YELLING),              //  6
+        Smileys.getSmileyResource(Smileys.COOL),                 //  7
+        Smileys.getSmileyResource(Smileys.MONEY_MOUTH),          //  8
+        Smileys.getSmileyResource(Smileys.FOOT_IN_MOUTH),        //  9
+        Smileys.getSmileyResource(Smileys.EMBARRASSED),          //  10
+        Smileys.getSmileyResource(Smileys.ANGEL),                //  11
+        Smileys.getSmileyResource(Smileys.UNDECIDED),            //  12
+        Smileys.getSmileyResource(Smileys.CRYING),               //  13
+        Smileys.getSmileyResource(Smileys.LIPS_ARE_SEALED),      //  14
+        Smileys.getSmileyResource(Smileys.LAUGHING),             //  15
+        Smileys.getSmileyResource(Smileys.WTF),                  //  16
+        Smileys.getSmileyResource(Smileys.MAD),                  //  17
+        Smileys.getSmileyResource(Smileys.HEART),                //  18
+        Smileys.getSmileyResource(Smileys.SMIRK),                //  19
+        Smileys.getSmileyResource(Smileys.POKERFACE),            //  20
     };
 
     public static final int DEFAULT_SMILEY_TEXTS = R.array.default_smiley_texts;
@@ -147,7 +158,7 @@ public class SmileyParser {
     private Pattern buildPattern() {
         // Set the StringBuilder capacity with the assumption that the average
         // smiley is 3 characters long.
-        StringBuilder patternString = new StringBuilder(mSmileyTexts.length * 8);
+        StringBuilder patternString = new StringBuilder(mSmileyTexts.length * 3);
 
         // Build a regex that looks like (:-)|:-(|...), but escaping the smilies
         // properly so they will be interpreted literally by the regex matcher.
@@ -185,5 +196,3 @@ public class SmileyParser {
         return builder;
     }
 }
-
-
