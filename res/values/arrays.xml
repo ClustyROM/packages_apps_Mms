@@ -43,6 +43,7 @@
       <item>:-I</item>   <!-- 20: Poker face -->
 	  <item>👿</item>	 <!-- 21: Monster -->
 	  <item>❤</item>	 <!-- 22: Coeur -->
+	  <item>ðŸ‘¿</item>
     </string-array>
 
     <!-- NOTE: if you change anything about this array, you must make the corresponding change
@@ -72,5 +73,6 @@
         <item>Poker face</item>              <!-- 20: :-I -->
 		<item>Monstre</item>
 		<item>Coeur Rouge</item>
+		<item>Monstre2</item>
     </string-array>
 </resources>
