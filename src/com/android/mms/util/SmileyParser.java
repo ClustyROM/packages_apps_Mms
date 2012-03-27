@@ -74,9 +74,9 @@ public class SmileyParser {
             R.drawable.emo_im_mad,
             R.drawable.emo_im_smirk,
             R.drawable.emo_im_pokerface,
-			R.drawable.emoji_1,
 			R.drawable.emoji_2,
-			R.drawable.emoji_1
+			R.drawable.emoji_2,
+			R.drawable.emoji_2
         };
 
         public static int HAPPY = 0;
