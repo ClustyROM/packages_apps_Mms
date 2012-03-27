@@ -41,9 +41,9 @@
       <item>x-(</item>   <!-- 18: Mad -->
       <item>:-/</item>   <!-- 19: Smirk -->
       <item>:-I</item>   <!-- 20: Poker face -->
-	  <item>👿</item>	 <!-- 21: Monster -->
+	  <item>💔</item>	 <!-- 21: Monster -->
 	  <item>❤</item>	 <!-- 22: Coeur -->
-	  <item>ðŸ‘¿</item>
+	  <item>💔 </item>
     </string-array>
 
     <!-- NOTE: if you change anything about this array, you must make the corresponding change
